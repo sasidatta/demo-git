@@ -1,0 +1,16 @@
+{
+  "name": "git-demo-website",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write .",
+    "build": "cp -r src dist",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "prettier": "^3.3.3",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.2.0"
+  }
+}
